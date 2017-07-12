@@ -9,7 +9,9 @@ public class MainDraws {
     static final int WIDTH = 600;
     static final int HEIGHT = 500;
     static final String TITTLE = "Dibujos 2D";
+    
     static DrawLines lines = new DrawLines();
+    static DrawLines2 lines2 = new DrawLines2();
     
     public static void main(String[] args) {
         JFrame frame = new JFrame();
@@ -19,7 +21,7 @@ public class MainDraws {
         frame.setLocationRelativeTo(null);
         frame.setLayout(new BorderLayout());
         
-        frame.add(lines);
+        frame.add(lines2);
         frame.setVisible(true);
     }
 }
