@@ -4,7 +4,7 @@ package draws;
 import java.awt.Canvas;
 import java.awt.Graphics;
 
-public class DrawLines extends Canvas {
+public class Lines1 extends Canvas {
 
     @Override
     public void paint(Graphics g) {

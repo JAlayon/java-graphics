@@ -13,7 +13,7 @@ import java.awt.Graphics;
  *
  * @author User
  */
-public class DrawLines2 extends Canvas {
+public class Lines3 extends Canvas {
 
     @Override
     public void paint(Graphics g) {
@@ -38,39 +38,6 @@ public class DrawLines2 extends Canvas {
             xf+=10;
             yi+=10;
         }
-        
-        
-//        for (int i = 0; i < 50; i++) {
-//            g.drawLine(0, yi, xf, height);
-//            xf+=10;
-//            yi+=10;
-//        }
-//
-//        yi = 10;
-//        xf = width;
-//        for (int i = 0; i < 50; i++) {
-//            g.drawLine(width, yi, xf, height);
-//            yi+=10;
-//            xf-=10;
-//        }
-//        
-//        yi = height;
-//        xf = 10;
-//        
-//        for (int i = 0; i < 50; i++) {
-//            g.drawLine(0, yi, xf, 0);
-//            yi-=10;
-//            xf+=10;
-//        }
-//        
-//        yi = height;
-//        xf = width;
-//        for (int i = 0; i < 50; i++) {
-//            g.drawLine(width, yi, xf, 0);
-//            yi-=10;
-//            xf-=10;
-//        }
-//        
         
         
     }
